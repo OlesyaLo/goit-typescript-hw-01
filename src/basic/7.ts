@@ -1,4 +1,4 @@
-type Page = {
+interface Page {
     title: string;
     likes: number;
     accounts: string[];
@@ -24,3 +24,6 @@ type Page = {
     accounts: ['Alex'],
     status: 'close',
   }
+
+ 
+  
